@@ -51,10 +51,12 @@ export interface AchievementNote {
 
 const personalInfo: PersonalInfo = {
   name: "Manas Marathe",
-  tagline: "Building scalable backend systems and solving complex problems 🚀💻",
+  tagline:
+    "Building scalable backend systems and solving complex problems 🚀💻",
   profileImage: "/images/profilePic.png",
   subtitle: "Software Development Engineer",
-  education: "B.Tech Computer Engineering with Honours in Data Science Analytics",
+  education:
+    "B.Tech Computer Engineering with Honours in Data Science Analytics",
   socialLinks: {
     github: "https://github.com/ManasMarathe",
     linkedin: "https://www.linkedin.com/in/manas-marathe-129942123/",
@@ -230,7 +232,12 @@ const experience: Experience[] = [
   {
     companyName: "The Marine Robotics Team",
     position: "Head Of Software",
-    techStack: ["Robot Operating System (ROS)", "Image Processing", "Python", "C++"],
+    techStack: [
+      "Robot Operating System (ROS)",
+      "Image Processing",
+      "Python",
+      "C++",
+    ],
     duration: "Sep 2020 - Mar 2022",
     workDone: [
       "Led the software development team for underwater autonomous underwater vehicle (AUV) projects",

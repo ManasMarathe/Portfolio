@@ -44,13 +44,7 @@ const Container: React.FC = () => {
         opacity: brightness,
       }}
     >
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className={styles.backgroundVideo}
-      >
+      <video autoPlay loop muted playsInline className={styles.backgroundVideo}>
         <source src="/images/background.mp4" type="video/mp4" />
       </video>
 

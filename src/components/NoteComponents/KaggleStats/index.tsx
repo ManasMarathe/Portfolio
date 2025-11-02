@@ -135,8 +135,8 @@ const KaggleStats: React.FC = () => {
           <div className={styles.projectItem}>
             <div className={styles.projectTitle}>Loan Analysis</div>
             <div className={styles.projectDescription}>
-              Statistical analysis of loan approval patterns and risk
-              assessment using Python
+              Statistical analysis of loan approval patterns and risk assessment
+              using Python
             </div>
             <div className={styles.projectTags}>
               <span className={styles.tag}>Python</span>
@@ -162,4 +162,3 @@ const KaggleStats: React.FC = () => {
 };
 
 export default KaggleStats;
-
