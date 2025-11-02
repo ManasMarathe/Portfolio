@@ -206,6 +206,17 @@ const experience: Experience[] = [
     ],
   },
   {
+    companyName: "Mehery SocCom",
+    position: "Software Developer Intern",
+    techStack: ["Node.js", "JavaScript", "MERN Stack", "Messaging APIs"],
+    duration: "Jun 2022 - Dec 2022",
+    workDone: [
+      "Implemented and researched different messaging channels including iMessage and RCS (Rich Communication Services)",
+      "Developed messaging integrations that led to customer adoption and platform expansion",
+      "Built scalable solutions using MERN stack for real-time communication features",
+    ],
+  },
+  {
     companyName: "Caarya",
     position: "Backend Developer Intern",
     techStack: ["Node.js", "Express.js", "MongoDB", "REST APIs", "Discord API"],
@@ -214,6 +225,18 @@ const experience: Experience[] = [
       "Developed and deployed Discord bots and RESTful APIs for multiple startup websites and mobile applications",
       "Improved automation and user engagement through bot integrations and webhook implementations",
       "Built scalable API endpoints handling user authentication, data management, and third-party integrations",
+    ],
+  },
+  {
+    companyName: "The Marine Robotics Team",
+    position: "Head Of Software",
+    techStack: ["Robot Operating System (ROS)", "Image Processing", "Python", "C++"],
+    duration: "Sep 2020 - Mar 2022",
+    workDone: [
+      "Led the software development team for underwater autonomous underwater vehicle (AUV) projects",
+      "Developed image processing algorithms for underwater object detection and navigation",
+      "Participated in robotics competitions, implementing autonomous control systems and sensor integration",
+      "Coordinated software development efforts across multiple subsystems including computer vision, control systems, and communications",
     ],
   },
 ];
