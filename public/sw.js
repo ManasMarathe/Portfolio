@@ -10,7 +10,7 @@ const STATIC_ASSETS = [
   "/favicon.ico",
   "/images/profilePic.png",
   "/images/Background.png",
-  "/images/preloader.gif",
+  "/images/basicLoad.gif",
 ];
 
 self.addEventListener("install", event => {
