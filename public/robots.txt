@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.arya-nair.in/sitemap.xml
+Sitemap: https://manasmarathe.github.io/sitemap.xml

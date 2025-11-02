@@ -41,9 +41,16 @@ const WakatimeStats: React.FC = () => {
           }
         }
 
-        const response = await fetch(
-          "https://wakatime.com/share/@barelyexisting/a3c0dd03-7d1c-4fca-a8a7-f99ccc83b530.json"
-        );
+        // TODO: Add your own Wakatime share URL here
+        // Get your share URL from: https://wakatime.com/share
+        // Example: "https://wakatime.com/share/@yourusername/your-share-id.json"
+        const WAKATIME_SHARE_URL = ""; // Add your Wakatime share URL here
+        
+        if (!WAKATIME_SHARE_URL) {
+          throw new Error("Wakatime share URL not configured");
+        }
+        
+        const response = await fetch(WAKATIME_SHARE_URL);
         if (!response.ok) throw new Error("Failed to fetch data");
         const data = await response.json();
 

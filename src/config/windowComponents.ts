@@ -4,7 +4,7 @@ import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import Notes from "../components/Notes";
 
-import linux from "../assets/linux.png";
+import settings from "../assets/settings.png";
 import visualStudio from "../assets/visualStudio.png";
 import terminal from "../assets/terminal.png";
 import notes from "../assets/notes.png";
@@ -61,10 +61,10 @@ export const windowComponentsConfig: WindowConfig[] = [
     name: "About Me",
     displayName: "About Me",
     component: AboutUs,
-    icon: linux,
+    icon: settings,
     defaultZIndex: 1,
     preload: true,
-    description: "Learn more about Arya Nair",
+    description: "Learn more about Manas Marathe",
   },
   {
     id: "Projects",

@@ -5,13 +5,7 @@ import Cam from "./assets/Cam.png";
 
 const App: React.FC = () => {
   useEffect(() => {
-    if (
-      window.location.href.includes(
-        "https://manasmarathe.github.io/manas_portfolio/"
-      )
-    ) {
-      window.location.href = "https://www.arya-nair.in/";
-    }
+    // Add any redirect logic here if needed
   }, []);
 
   return (

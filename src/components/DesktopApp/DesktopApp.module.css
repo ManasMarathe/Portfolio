@@ -7,7 +7,7 @@
   align-items: center;
   cursor: pointer;
   transition: transform 0.2s ease;
-  z-index: 1;
+  z-index: 10;
 }
 
 .desktopApp:hover {

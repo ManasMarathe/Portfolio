@@ -1,6 +1,6 @@
-const CACHE_NAME = "arya-nair-portfolio-v1";
-const STATIC_CACHE_NAME = "arya-nair-static-v1";
-const DYNAMIC_CACHE_NAME = "arya-nair-dynamic-v1";
+const CACHE_NAME = "manas-marathe-portfolio-v1";
+const STATIC_CACHE_NAME = "manas-marathe-static-v1";
+const DYNAMIC_CACHE_NAME = "manas-marathe-dynamic-v1";
 
 const STATIC_ASSETS = [
   "/",
@@ -129,7 +129,7 @@ self.addEventListener("push", event => {
   };
 
   event.waitUntil(
-    self.registration.showNotification("Arya Nair Portfolio", options)
+    self.registration.showNotification("Manas Marathe Portfolio", options)
   );
 });
 

@@ -9,6 +9,8 @@
   color: #ffffff;
   padding: 0 1rem;
   align-items: center;
+  position: relative;
+  z-index: 100;
 
   font-family:
     -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",

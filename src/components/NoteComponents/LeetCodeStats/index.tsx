@@ -166,7 +166,7 @@ const LeetCodeStats: React.FC = () => {
       const result: LeetCodeData = {
         user: {
           username: userData.username || LEETCODE_USERNAME,
-          name: userData.name || userData.username || "Arya Nair",
+          name: userData.name || userData.username || "Manas Marathe",
           avatar:
             userData.avatar ||
             "https://assets.leetcode.com/users/default_avatar.jpg",

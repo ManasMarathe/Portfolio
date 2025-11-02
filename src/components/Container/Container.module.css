@@ -1,16 +1,28 @@
 .container {
   height: 100%;
   position: relative;
-  background-image: url("/images/home-screen.png");
-  background-size: cover;
   border-radius: 0.2rem;
-  background-position: center;
+  overflow: hidden;
 }
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(1.2) contrast(1.1);
+  pointer-events: none;
+}
+
 .preloader {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 10;
 }
 
 @media screen and (max-width: 600px) {

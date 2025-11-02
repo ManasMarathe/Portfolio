@@ -2,7 +2,9 @@
 
 This Repository contains the code for my Personal website.
 
-## You can see the website [here](https://www.arya-nair.in/)
+## Portfolio Website
+
+This is the personal portfolio website of Manas Marathe.
 
 ## Development
 
