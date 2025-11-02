@@ -100,8 +100,8 @@ export const windowComponentsConfig: WindowConfig[] = [
 
 export const appConfig: AppConfig = {
   preloader: {
-    duration: 2000,
-    imageSrc: "/images/preloader.gif",
+    duration: 1300,
+    imageSrc: "/images/basicLoad.gif",
     altText: "Loading...",
   },
   brightness: {
