@@ -218,6 +218,23 @@ const experience: Experience[] = [
   },
 ];
 
-const achievementNotes: AchievementNote[] = [];
+const achievementNotes: AchievementNote[] = [
+  {
+    id: "achievement-1",
+    title: "CSI Hackathon - Runner Up",
+    preview:
+      "Secured Runner Up position at CSI (Computer Society of India) Hackathon showcasing innovative problem-solving and technical excellence.",
+    image: "csi-hackathon.jpeg",
+    achievementTitle: "CSI Hackathon Runner Up 🥈",
+    content: [
+      "Secured Runner Up position at the prestigious Computer Society of India (CSI) Hackathon",
+      "Developed an innovative solution demonstrating strong technical skills and creative problem-solving",
+      "Collaborated effectively in a team environment under tight deadlines",
+      "Presented the solution to industry experts and received recognition for technical excellence",
+      "Competed against numerous talented teams from various institutions",
+    ],
+    date: "2023",
+  },
+];
 
 export { personalInfo, projects, experience, achievementNotes };
