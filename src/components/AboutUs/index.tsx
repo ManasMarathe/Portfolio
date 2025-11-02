@@ -27,13 +27,13 @@ const AboutUs: React.FC<AboutUsProps> = ({
       case "github":
         return url.replace("https://github.com/", "");
       case "linkedin":
-        return url.replace("https://linkedin.com/in/", "");
+        return "manas-marathe";
       case "email":
         return url.replace("mailto:", "");
       case "leetcode":
         return url.replace("https://leetcode.com/u/", "").replace("/", "");
       case "whatsapp":
-        return "+91 99206 46238";
+        return "+91 98690 31752";
       default:
         return url;
     }
