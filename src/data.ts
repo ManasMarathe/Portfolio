@@ -64,7 +64,7 @@ const personalInfo: PersonalInfo = {
     email: "mailto:manasvmarathe1@gmail.com",
     whatsapp: "https://wa.me/919869031752",
     resume:
-      "https://drive.google.com/file/d/1bhLfOFy87ukde8o6MoI6AC0gJmc6Nygp/view?usp=sharing",
+      "https://drive.google.com/file/d/1VuPiQKq0huYeKNDxT85UQa1NsLH_ut7w/view?usp=sharing",
   },
   about: [
     "I'm a passionate Software Development Engineer with expertise in building scalable backend systems, microservices architecture, and distributed systems.",
