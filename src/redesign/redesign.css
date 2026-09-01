@@ -493,11 +493,21 @@ body.rd-body * {
   letter-spacing: 0.04em;
 }
 
+.rd-work-links {
+  display: flex;
+  gap: 1.2rem;
+}
+
 .rd-work-link {
   font-size: 0.72rem;
   font-weight: 700;
   border-bottom: 2px solid var(--rd-accent);
   align-self: flex-start;
+}
+
+.rd-work-link--muted {
+  border-bottom-color: var(--rd-line);
+  color: var(--rd-muted);
 }
 
 /* ── Contact ────────────────────────────────────────────────────── */

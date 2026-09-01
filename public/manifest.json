@@ -5,64 +5,36 @@
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "48x48 32x32 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "72x72",
-      "purpose": "any maskable"
+      "src": "favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
     },
     {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "96x96",
-      "purpose": "any maskable"
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
     },
     {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "128x128",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "144x144",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "152x152",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "192x192",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "384x384",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
+      "src": "icon-512.png",
       "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ],
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "theme_color": "#000000",
-  "background_color": "#1e1e1e",
-  "categories": ["portfolio", "developer", "technology"],
+  "theme_color": "#f4f2ee",
+  "background_color": "#f4f2ee",
+  "categories": [
+    "portfolio",
+    "developer",
+    "technology"
+  ],
   "lang": "en",
   "scope": "/",
   "prefer_related_applications": false,
@@ -72,21 +44,36 @@
       "short_name": "Projects",
       "description": "View my portfolio projects",
       "url": "/window/Projects",
-      "icons": [{ "src": "favicon.ico", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "Experience",
       "short_name": "Experience",
       "description": "Check out my work experience",
       "url": "/window/Experience",
-      "icons": [{ "src": "favicon.ico", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "Notes",
       "short_name": "Notes",
       "description": "Browse my knowledge base",
       "url": "/window/Notes/all",
-      "icons": [{ "src": "favicon.ico", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

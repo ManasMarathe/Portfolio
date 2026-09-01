@@ -6,7 +6,7 @@ import { redesignProjects, redesignHighlights } from "./redesignData";
 import "./redesign.css";
 
 const HERO_TEXT =
-  "Hello, World.\nI'm Manas Marathe.\nA Software Development Engineer in India. I love building systems that scale to millions.";
+  "Hello, World.\nI'm Manas Marathe.\nA Senior Software Developer in India. I love building systems that scale to millions.";
 
 const useTypewriter = (text: string, speed = 45) => {
   const [typed, setTyped] = useState("");
@@ -348,14 +348,37 @@ const Redesign: React.FC = () => {
                 <h3>{p.title}</h3>
                 <p>{p.blurb}</p>
                 <div className="rd-work-stack">[{p.stack.join(", ")}]</div>
-                <a
-                  className="rd-work-link"
-                  href={p.link}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  view on github →
-                </a>
+                <div className="rd-work-links">
+                  {p.live ? (
+                    <>
+                      <a
+                        className="rd-work-link"
+                        href={p.live}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        view live ↗
+                      </a>
+                      <a
+                        className="rd-work-link rd-work-link--muted"
+                        href={p.link}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        code →
+                      </a>
+                    </>
+                  ) : (
+                    <a
+                      className="rd-work-link"
+                      href={p.link}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      view on github →
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>

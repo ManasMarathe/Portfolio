@@ -3,6 +3,7 @@ export interface RedesignProject {
   blurb: string;
   stack: string[];
   link: string;
+  live?: string;
 }
 
 export const redesignProjects: RedesignProject[] = [
@@ -26,6 +27,7 @@ export const redesignProjects: RedesignProject[] = [
       "A civic web app where citizens report corruption at Indian government offices and see reports on an interactive map — with a tamper-evident complaint record and a moderated response path for officers.",
     stack: ["Next.js 15", "TypeScript", "PostgreSQL", "PostGIS", "Drizzle"],
     link: "https://github.com/ManasMarathe/corruption.fix",
+    live: "https://corruptionfix.vercel.app",
   },
   {
     title: "UniqSocial",

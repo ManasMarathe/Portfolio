@@ -55,7 +55,7 @@ const personalInfo: PersonalInfo = {
   tagline:
     "Building scalable backend systems and solving complex problems 🚀💻",
   profileImage: "/images/profilePic.png",
-  subtitle: "Software Development Engineer II",
+  subtitle: "Senior Software Developer",
   education:
     "B.Tech Computer Engineering with Honours in Data Science Analytics",
   socialLinks: {
@@ -69,7 +69,7 @@ const personalInfo: PersonalInfo = {
   },
   about: [
     "I'm a passionate Software Development Engineer with expertise in building scalable backend systems, microservices architecture, and distributed systems.",
-    "Currently a Software Development Engineer II at Gupshup, I own the Partner Platform end-to-end as its sole engineer — architecture, features, production operations, and partner integrations — across systems processing 500M+ messages daily with 99.99% uptime. I have a strong foundation in Java, Go, Python, Spring Boot, and cloud-native technologies.",
+    "Currently a Senior Software Developer at XBE, building the system of action for heavy materials, logistics, and construction. Before that, at Gupshup, I owned the Partner Platform end-to-end as its sole engineer — architecture, features, production operations, and partner integrations — across systems processing 500M+ messages daily with 99.99% uptime. I have a strong foundation in Java, Go, Python, Spring Boot, and cloud-native technologies.",
     "I graduated from K.J. Somaiya College of Engineering with a 9.16 CGPA and love tackling challenging technical problems, optimizing system performance, and building robust, production-grade applications.",
   ],
   technologies:
@@ -165,6 +165,15 @@ const projects: Project[] = [
 
 const experience: Experience[] = [
   {
+    companyName: "XBE",
+    position: "Senior Software Developer",
+    techStack: ["Backend Engineering", "Distributed Systems", "AI Agents"],
+    duration: "Sep 2026 - Present",
+    workDone: [
+      "Building XBE's operations platform for heavy materials, logistics, and construction — unifying planning, dispatch, production, fleet, and financial systems, with AI-powered workflow automation via Agent XBE",
+    ],
+  },
+  {
     companyName: "Gupshup",
     position: "Software Development Engineer II",
     techStack: [
@@ -182,7 +191,7 @@ const experience: Experience[] = [
       "RabbitMQ",
       "Docker",
     ],
-    duration: "Jul 2024 - Present",
+    duration: "Jul 2024 - Aug 2026",
     workDone: [
       "Promoted to SDE II after taking end-to-end ownership of the Partner Platform as the sole engineer — architecture, feature development, production operations, and partner integrations — using an AI-first development approach to cut engineering turnaround time by 50%+",
       "Built an AI-powered developer workflow combining knowledge graphs, planner agents, code generation, and automated test creation to execute end-to-end development tasks while reducing LLM token consumption",
