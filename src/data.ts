@@ -8,6 +8,7 @@ export interface PersonalInfo {
     github: string;
     linkedin: string;
     leetcode: string;
+    twitter: string;
     email: string;
     whatsapp: string;
     resume: string;
@@ -54,21 +55,21 @@ const personalInfo: PersonalInfo = {
   tagline:
     "Building scalable backend systems and solving complex problems 🚀💻",
   profileImage: "/images/profilePic.png",
-  subtitle: "Software Development Engineer",
+  subtitle: "Software Development Engineer II",
   education:
     "B.Tech Computer Engineering with Honours in Data Science Analytics",
   socialLinks: {
     github: "https://github.com/ManasMarathe",
     linkedin: "https://www.linkedin.com/in/manas-marathe-129942123/",
     leetcode: "https://leetcode.com/u/ManasMarathe/",
-    email: "mailto:manasvmarathe1@gmail.com",
+    twitter: "https://x.com/mauux0",
+    email: "mailto:manasvmarathe@gmail.com",
     whatsapp: "https://wa.me/919869031752",
-    resume:
-      "https://drive.google.com/file/d/1VuPiQKq0huYeKNDxT85UQa1NsLH_ut7w/view?usp=sharing",
+    resume: "/manasResume.pdf",
   },
   about: [
     "I'm a passionate Software Development Engineer with expertise in building scalable backend systems, microservices architecture, and distributed systems.",
-    "Currently working at Gupshup, I specialize in engineering high-throughput messaging platforms handling 100M+ messages daily with 99.99% uptime. I have a strong foundation in Java, Python, Spring Boot, and cloud-native technologies.",
+    "Currently a Software Development Engineer II at Gupshup, I own the Partner Platform end-to-end as its sole engineer — architecture, features, production operations, and partner integrations — across systems processing 500M+ messages daily with 99.99% uptime. I have a strong foundation in Java, Go, Python, Spring Boot, and cloud-native technologies.",
     "I graduated from K.J. Somaiya College of Engineering with a 9.16 CGPA and love tackling challenging technical problems, optimizing system performance, and building robust, production-grade applications.",
   ],
   technologies:
@@ -165,11 +166,13 @@ const projects: Project[] = [
 const experience: Experience[] = [
   {
     companyName: "Gupshup",
-    position: "Software Development Engineer I",
+    position: "Software Development Engineer II",
     techStack: [
       "Java",
+      "Go",
       "Python",
       "Spring Boot",
+      "Kafka",
       "PostgreSQL",
       "MySQL",
       "Elasticsearch",
@@ -181,17 +184,19 @@ const experience: Experience[] = [
     ],
     duration: "Jul 2024 - Present",
     workDone: [
-      "Engineered scalable backend systems in Java/Python for message transformation and delivery across distributed services, achieving 99.99% uptime and handling 100M+ messages daily",
-      "Designed and implemented a modular transformer architecture supporting 10+ payload formats and protocols using object-oriented design patterns, enabling seamless platform integrations",
-      "Built event-driven messaging patterns (pub/sub, retries, DLQs) and real-time connectors, improving delivery success rates by 30% and enhancing fault tolerance under load",
-      "Led production deployments on AWS & Kubernetes with Helm, health probes, dynamic logging, and observability integrations (Coralogix/Splunk), ensuring robust, scalable infrastructure",
-      "Automated UI and API-level tests using TDD, built CI/CD pipelines accelerating builds, tests, and deployments — achieving 4x faster release cycles",
-      "Resolved undocumented analytics pipeline issues via log analysis and reverse engineering, restoring reporting accuracy within 24 hours",
+      "Promoted to SDE II after taking end-to-end ownership of the Partner Platform as the sole engineer — architecture, feature development, production operations, and partner integrations — using an AI-first development approach to cut engineering turnaround time by 50%+",
+      "Built an AI-powered developer workflow combining knowledge graphs, planner agents, code generation, and automated test creation to execute end-to-end development tasks while reducing LLM token consumption",
+      "Architected the backend powering partner onboarding, real-time campaign analytics, delivery tracking, and performance reporting across systems processing 500M+ messages daily",
+      "Engineered scalable backend systems in Java and Go for high-throughput message transformation and delivery across distributed services, maintaining 99.99% uptime",
+      "Designed a modular transformer architecture supporting 10+ payload formats and protocols, enabling seamless enterprise partner integrations",
+      "Implemented resilient event-driven workflows using Kafka, pub/sub, retries, and DLQs, improving delivery success rates by 30% under peak load",
+      "Led production deployments on AWS & Kubernetes with Helm, health probes, dynamic logging, and observability integrations (Coralogix/Splunk), accelerating release cycles by 4x",
+      "Resolved critical undocumented production issues through reverse engineering and log analysis, restoring reporting accuracy within 24 hours and reducing developer onboarding time by 4x",
     ],
   },
   {
     companyName: "Utopia Tech",
-    position: "Backend Developer Intern",
+    position: "Backend Developer",
     techStack: [
       "Python",
       "Django",
@@ -202,8 +207,7 @@ const experience: Experience[] = [
     ],
     duration: "Jan 2024 - May 2024",
     workDone: [
-      "Developed backend systems and redesigned REST APIs with supporting database schemas for an IoT platform",
-      "Enabled real-time device monitoring, metrics visualization, and health tracking through dynamic dashboards",
+      "Developed backend systems, REST APIs, and database schemas for an IoT platform, enabling real-time monitoring and health tracking for 1000+ connected devices through operational dashboards",
       "Optimized database queries and API performance for handling high-frequency IoT sensor data",
     ],
   },
@@ -220,7 +224,7 @@ const experience: Experience[] = [
   },
   {
     companyName: "Caarya",
-    position: "Backend Developer Intern",
+    position: "Backend Developer",
     techStack: ["Node.js", "Express.js", "MongoDB", "REST APIs", "Discord API"],
     duration: "May 2022 - Nov 2022",
     workDone: [

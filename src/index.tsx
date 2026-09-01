@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App";
 import PlainPortfolio from "./components/PlainPortfolio/PlainPortfolio";
+import Redesign from "./redesign/Redesign";
 import "./index.css";
 import * as serviceWorker from "./utils/serviceWorker";
 
@@ -13,7 +14,8 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Redesign />} />
+        <Route path="/old" element={<App />} />
         <Route path="/window/:windowId" element={<App />} />
         <Route path="/window/:windowId/:slug" element={<App />} />
         <Route path="/plain" element={<PlainPortfolio />} />
